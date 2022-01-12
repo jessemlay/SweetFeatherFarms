@@ -68,10 +68,9 @@ const IndexPage = () => (
             </div>
             <div className="w-full p-5 bg-white">
               <div className="mb-4 text-center sm:px-8">
-                <h3 className="pt-4 mb-2 text-2xl">Farm Name Here</h3>
+                <h3 className="pt-4 mb-2 text-2xl">Sweet Feather Farms</h3>
                 <p className="mb-4 text-sm text-gray-700">
-                  Description of the farm location and little backstory, what
-                  the farm does and grows etc.
+                  Provides high quality honey, goats milk and eggs.
                 </p>
               </div>
               <div className="px-8 pt-6 pb-8 mb-4 bg-white rounded">
@@ -90,7 +89,7 @@ const IndexPage = () => (
         </div>
       </div>
       {/* Our Products Section */}
-      <div className="container pt-2 pb-6 mx-auto mt-2 border-b-4 sm:block">
+      <div className="container pt-2 pb-6 mx-auto mt-2 sm:block">
         <h1 className="py-4 text-center font-slim text-brown">Our Products</h1>
         <div className="flex flex-wrap justify-center px-6 my-4 md:flex-row sm:w-auto">
           {/* Products Here*/}
@@ -110,11 +109,11 @@ const IndexPage = () => (
                 exercitationem praesentium nihil.
               </p>
             </div>
-            <button className="flex px-4 py-2 mb-3 ml-6 text-sm font-bold text-white rounded shadow-sm sm:text-base bg-orange hover:bg-orange-dark">
+            {/* <button className="flex px-4 py-2 mb-3 ml-6 text-sm font-bold text-white rounded shadow-sm sm:text-base bg-orange hover:bg-orange-dark">
               Buy With Stripe
               <img className="w-6 ml-3 shadow-sm" src={StripeImage1}></img>
-            </button>
-            <div className="flex flex-col px-6 py-4 sm:flex-row">
+            </button> */}
+            {/* <div className="flex flex-col px-6 py-4 sm:flex-row">
               <span className="w-20 mb-4 mr-2 text-white sm:w-auto prd-tag bg-primary sm:mb-0">
                 $1,250
               </span>
@@ -127,7 +126,7 @@ const IndexPage = () => (
               <span className="hidden text-gray-600 bg-gray-100 md:block prd-tag">
                 #farming
               </span>
-            </div>
+            </div> */}
           </div>
           <div className="product sm:max-w-sm">
             <img
@@ -145,11 +144,11 @@ const IndexPage = () => (
                 exercitationem praesentium nihil.
               </p>
             </div>
-            <button className="flex px-4 py-2 mb-3 ml-6 text-sm font-bold text-white rounded shadow-sm sm:text-base bg-orange hover:bg-orange-dark">
+            {/* <button className="flex px-4 py-2 mb-3 ml-6 text-sm font-bold text-white rounded shadow-sm sm:text-base bg-orange hover:bg-orange-dark">
               Buy With Stripe
               <img className="w-6 ml-3 shadow-sm" src={StripeImage1}></img>
-            </button>
-            <div className="flex flex-col px-6 py-4 sm:flex-row">
+            </button> */}
+            {/* <div className="flex flex-col px-6 py-4 sm:flex-row">
               <span className="w-20 mb-4 mr-2 text-white sm:w-auto prd-tag bg-primary sm:mb-0">
                 $2,500
               </span>
@@ -162,7 +161,7 @@ const IndexPage = () => (
               <span className="hidden text-gray-600 bg-gray-100 md:block prd-tag">
                 #farming
               </span>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
