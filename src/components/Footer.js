@@ -1,16 +1,28 @@
+// import { graphql, useStaticQuery, Link } from "gatsby";
 import PropTypes from 'prop-types';
 import { Link } from 'gatsby';
 import React from 'react';
+//import React, { useState } from "react"
 
 const Footer = ({ companyName }) => (
-  <footer className="w-full py-1 bg-yellow-200 shadow-sm">
-    <div className="flex flex-col items-center justify-between h-2 mx-16 my-4 ml-20 sm:flex-row">
+  <footer className="w-full shadow-sm bg-beige">
+    {/* <div className="px-4 pt-3 pb-4 -mx-4 border-b-2 border-gray-400">
+      <div className="flex flex-col justify-center px-4 mx-auto ml-1 sm:justify-start sm:ml-20 sm:px-0">
+        <h2 className="inline-block text-xl font-semibold text-center text-gray-800 sm:text-left">
+          Join Our Facebook Group
+        </h2>
+        <p className="pl-px text-xs text-center text-gray-700 sm:text-left">
+          Latest news, articles and updates delivered directly to you.
+        </p>
+      </div>
+    </div> */}
+    <div className="flex flex-col items-center justify-between ml-20 sm:flex-row">
       <p className="pt-6">
-        <span className="text-center  sm:mr-0 sm:text-base">
+        <span className="mr-6 text-sm text-center sm:mr-0 sm:text-base">
           © {companyName}, {new Date().getFullYear()}.{' '}
         </span>
       </p>
-      <div className="flex items-center">
+      {/* <div className="flex items-center">
         <Link href="#">
           <svg
             className="w-6 h-6 mr-6 fill-current text-primary hover:text-secondary"
@@ -50,17 +62,17 @@ const Footer = ({ companyName }) => (
             <path d="M496,109.5a201.8,201.8,0,0,1-56.55,15.3,97.51,97.51,0,0,0,43.33-53.6,197.74,197.74,0,0,1-62.56,23.5A99.14,99.14,0,0,0,348.31,64c-54.42,0-98.46,43.4-98.46,96.9a93.21,93.21,0,0,0,2.54,22.1,280.7,280.7,0,0,1-203-101.3A95.69,95.69,0,0,0,36,130.4C36,164,53.53,193.7,80,211.1A97.5,97.5,0,0,1,35.22,199v1.2c0,47,34,86.1,79,95a100.76,100.76,0,0,1-25.94,3.4,94.38,94.38,0,0,1-18.51-1.8c12.51,38.5,48.92,66.5,92.05,67.3A199.59,199.59,0,0,1,39.5,405.6,203,203,0,0,1,16,404.2,278.68,278.68,0,0,0,166.74,448c181.36,0,280.44-147.7,280.44-275.8,0-4.2-.11-8.4-.31-12.5A198.48,198.48,0,0,0,496,109.5Z" />
           </svg>
         </Link>
-      </div>
+      </div> */}
     </div>
   </footer>
 );
 
 Footer.propTypes = {
-  companyName: PropTypes.string,
+  siteTitle: PropTypes.string,
 };
 
 Footer.defaultProps = {
-  companyName: ``,
+  siteTitle: ``,
 };
 
 export default Footer;

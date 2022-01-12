@@ -39,7 +39,7 @@ const IndexPage = () => (
         {/* Hero Section */}
         <div className="flex w-full -mt-5 md:justify-end md:w-1/2">
           <div className="bg-dots">
-            <div className="z-10 max-w-md mt-6 ml-4 rounded-full shadow-2xl">
+            <div className="z-10 max-w-md mt-6 ml-4 rounded-full">
               <img alt="card img" className="rounded-t" src={FarmImage}></img>
               <div className="p-10 text-2xl bg-white">
                 <img
