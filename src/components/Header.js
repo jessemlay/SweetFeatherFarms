@@ -1,18 +1,23 @@
 import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import React, { useState } from 'react';
-import mainLogo from '../images/logo.png';
+import logo from '../images/logo-invert.png';
 
 function Header({ siteTitle }) {
   const [isExpanded, toggleExpansion] = useState(false);
 
   return (
-    <nav className="sticky top-0 w-full mt-0 bg-white shadow-sm">
+    <nav className="sticky top-0 w-full mt-0 bg-yellow-200 shadow-2xl">
       <div className="container flex flex-wrap items-center justify-between mx-auto">
         <Link to="/" className="">
           <div className="no-underline opacity-100 hover:text-white hover:no-underline">
-            <span className="pl-2 text-2xl text-blue">
-              <img alt="Simplicity Farms" className="inline w-48" src={mainLogo} />
+            <span className="pl-2 text-2xl italic font-bold text-green-700">
+              {/* <img
+                alt="Simplicity Farms"
+                className="inline w-12 h-12"
+                src={logo}
+              /> */}
+              Sweet Feather Farms
               {/* {siteTitle} */}
             </span>
           </div>
@@ -45,7 +50,7 @@ function Header({ siteTitle }) {
             },
           ].map((link) => (
             <Link
-              className="block mt-4 font-light hover:text-secondary text-slim text-primary hover:text-black hover:no-underline md:inline-block md:mt-0 md:ml-6"
+              className="block mt-4 font-light hover:text-secondary text-slim text-primary hover:no-underline md:inline-block md:mt-0 md:ml-6"
               key={link.title}
               to={link.route}
             >
@@ -54,7 +59,7 @@ function Header({ siteTitle }) {
           ))}
           <Link
             to="/contact"
-            className="px-4 py-2 ml-6 text-white rounded shadow-sm sm:relative sm:top-4 hover:no-underline bg-orange hover:bg-orange-dark"
+            className="px-4 py-2 ml-6 text-white bg-green-500 rounded shadow-sm sm:relative sm:top-4 hover:no-underline hover:bg-green-600"
           >
             <span className="">Contact Us</span>
           </Link>

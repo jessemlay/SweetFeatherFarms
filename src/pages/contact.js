@@ -16,8 +16,7 @@ const ContactPage = () => (
                 Contact Us
               </h1>
               <p className="mx-auto text-base leading-relaxed lg:w-2/3">
-                Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-                gentrify.
+                Shoot us a email and well get back to you as soon as possible.
               </p>
             </div>
             <div className="mx-auto lg:w-1/2 md:w-2/3">
@@ -43,19 +42,19 @@ const ContactPage = () => (
                   ></textarea>
                 </div>
                 <div className="w-full p-2">
-                  <button className="flex px-8 py-2 mx-auto text-lg text-white border-0 rounded bg-orange hover:bg-orange-dark focus:outline-none">
-                    Button
+                  <button className="flex px-8 py-2 mx-auto text-lg text-white bg-green-500 border-0 rounded hover:bg-green-600 focus:outline-none">
+                    Send
                   </button>
                 </div>
                 <div className="w-full p-2 pt-8 mt-8 text-center border-t border-gray-200">
-                  <a className="text-secondary">example@email.com</a>
+                  <a className="text-secondary">admin@sweetfeatherfarms.com</a>
                   <p className="my-5 leading-normal">
-                    49 Smith St.
+                    110308 S 4700 Rd
                     <br />
-                    Saint Cloud, MN 56301
+                    Muldrow, OK 74948
                   </p>
                   <span className="inline-flex">
-                    <a className="text-gray-500">
+                    {/* <a className="text-gray-500">
                       <svg
                         fill="currentColor"
                         stroke-linecap="round"
@@ -111,7 +110,7 @@ const ContactPage = () => (
                       >
                         <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
                       </svg>
-                    </a>
+                    </a> */}
                   </span>
                 </div>
               </div>

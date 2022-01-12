@@ -21,34 +21,16 @@ const IndexPage = () => (
       <div className="flex flex-col pb-10 border-b-2 md:flex-row">
         <div className="flex flex-col justify-center max-w-md md:w-1/2">
           <div className="text-2xl font-black uppercase md:text-5xl text-primary">
-            <span className="">Quality Theme, Home-Grown From 
-            <span class='tooltip'>
-            <img
-                alt="card img"
-                className="inline-block w-10 p-1 mx-4 rounded shadow-sm"
-                src={GastbyIcon}
-              >
-            </img>
-            <span class='tooltip-text bg-blue-200 p-1 rounded'>GatsbyJS</span>
-            </span>and
-            <span class='tooltip'>
-            <img
-              alt="card img"
-              className="inline-block w-10 p-1 mx-4 rounded shadow-sm"
-              src={TailwindIcon}
-            ></img>
-            <span class='tooltip-text bg-blue-200 p-1 rounded'>TailWindCSS</span>
-            </span>
-            </span>
+            <span className="">Family-owned and operated</span>
           </div>
           <div className="mt-4 text-xl">
-            Founded in 2020, Simplicity Farms has been growing high-quality,
-            sustainable rice for the market.
+            Founded in 2022, Sweet Feather Farms provides high-quality
+            sustainable honey, goats milk and eggs for the market.
           </div>
           <div className="h-16 my-5 mt-10">
             <Link
               to="/our-story"
-              className="w-48 px-4 py-2 text-lg font-medium text-center text-yellow-100 rounded shadow-md cursor-pointer hover:no-underline bg-orange hover:bg-orange-dark"
+              className="w-48 px-4 py-2 text-lg font-medium text-center text-yellow-100 bg-green-500 rounded shadow-md cursor-pointer hover:no-underline hover:bg-green-600"
             >
               Learn Our Story
             </Link>
@@ -58,20 +40,15 @@ const IndexPage = () => (
         <div className="flex w-full -mt-5 md:justify-end md:w-1/2">
           <div className="bg-dots">
             <div className="z-10 max-w-md mt-6 ml-4 rounded-full shadow-2xl">
-              <img
-                alt="card img"
-                className="rounded-t"
-                src={FarmImage}
-              ></img>
+              <img alt="card img" className="rounded-t" src={FarmImage}></img>
               <div className="p-10 text-2xl bg-white">
                 <img
                   alt="quote"
                   className="float-left mr-1"
                   src="https://assets-global.website-files.com/5b5a66e9f3166b36708705fa/5cf8fb1f994fb7168d0d66fb_quote-intro.svg"
                 ></img>{' '}
-                Our dream with Simplicity Farms is to grow the truest, and highest quality rice
-                in the world.
-                <p className="mt-4 text-sm">- Andrew Carnegie, Founder</p>
+                From farm to fork, we harvest all our products with love.
+                <p className="mt-4 text-sm">- Jesse Lay, Founder</p>
               </div>
             </div>
           </div>
@@ -185,135 +162,6 @@ const IndexPage = () => (
               <span className="hidden text-gray-600 bg-gray-100 md:block prd-tag">
                 #farming
               </span>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* What People Are Saying Section */}
-      <div className="py-16 mt-32 bg-indigo-100">
-        <div className="container px-4 mx-auto">
-          <h3 className="mb-3 text-3xl font-extrabold leading-tight text-center">
-            What People Are Saying About Simplicity Farms
-          </h3>
-          <hr className="w-64 h-1 p-0 m-0 mx-auto mb-10 opacity-25 gradient" />
-          <div className="flex flex-wrap justify-center -mx-4">
-            <div className="w-full px-4 lg:w-1/3">
-              <div className="flex -mx-4">
-                <div className="px-4 ">
-                  <div className="p-4 bg-white rounded-lg shadow">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu odio ut sem nulla pharetra. Rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar.
-                  </div>
-                  <div className="ml-4 -mt-1">
-                    <svg
-                      height="20"
-                      width="20"
-                      viewBox="0, 0, 20, 20"
-                      className="text-white"
-                    >
-                      <polygon
-                        points="0,0 20,0 10,20"
-                        className="triangle"
-                        fill="currentColor"
-                      ></polygon>
-                    </svg>
-                  </div>
-                  <div className="flex mt-2">
-                    <div className="flex-shrink-0 w-16 text-center">
-                      <img
-                        className="rounded-full"
-                        src={TestImage1}
-                        alt=""
-                      ></img>
-                    </div>
-                    <p className="ml-2 font-bold">
-                      <Link target="_blank" href="https://www.example.com/">
-                        Bob James
-                        <br />
-                        Founder of OrgFarm
-                      </Link>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="w-full px-4 mt-6 lg:w-1/3 lg:mt-0">
-              <div className="flex -mx-4">
-                <div className="px-4 ">
-                  <div className="p-4 bg-white rounded-lg shadow">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu odio ut sem nulla pharetra. Rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar.
-                  </div>
-                  <div className="ml-4 -mt-1">
-                    <svg
-                      height="20"
-                      width="20"
-                      viewBox="0, 0, 20, 20"
-                      className="text-white"
-                    >
-                      <polygon
-                        points="0,0 20,0 10,20"
-                        className="triangle"
-                        fill="currentColor"
-                      ></polygon>
-                    </svg>
-                  </div>
-                  <div className="flex mt-2">
-                    <div className="flex-shrink-0 w-16 text-center">
-                      <img
-                        className="rounded-full"
-                        src={TestImage2}
-                        alt=""
-                      ></img>
-                    </div>
-                    <p className="ml-2 font-bold ">
-                      <Link target="_blank" href="https://www.example.com/">
-                        Arnaud Pencis
-                        <br />
-                        Founder of Y-Produce
-                      </Link>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="w-full px-4 mt-6 lg:w-1/3 lg:mt-0">
-              <div className="flex -mx-4">
-                <div className="px-4">
-                  <div className="p-4 pt-4 bg-white rounded-lg shadow lg:pb-10">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu odio ut sem nulla pharetra. Rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar.
-                  </div>
-                  <div className="ml-4 -mt-1">
-                    <svg
-                      height="20"
-                      width="20"
-                      viewBox="0, 0, 20, 20"
-                      className="text-white"
-                    >
-                      <polygon
-                        points="0,0 20,0 10,20"
-                        className="triangle"
-                        fill="currentColor"
-                      ></polygon>
-                    </svg>
-                  </div>
-                  <div className="flex mt-2">
-                    <div className="flex-shrink-0 w-16 text-center">
-                      <img
-                        className="rounded-full"
-                        src={TestImage3}
-                        alt=""
-                      ></img>
-                    </div>
-                    <p className="ml-2 font-bold ">
-                      <Link target="_blank" href="https://www.goreminders.com/">
-                        Lacey Turner
-                        <br />
-                        Founder of Ton Farms
-                      </Link>
-                    </p>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>

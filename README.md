@@ -32,7 +32,7 @@ A Simple, Free Gatsby/TailwindCSS Starter Theme For Business Websites.
 
     Or simply use the CLI to download it as an NPM package:
 
-     ```shell
+    ```shell
     # Run the following command in your CLI
     npm i gatsby-tailwind-simplicity-theme
     ```

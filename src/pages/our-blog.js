@@ -10,13 +10,13 @@ const OurBlogPage = () => (
 
     <div className="text-gray-700 body-font">
       <div className="container px-5 py-24 mx-auto">
-      <div className="flex flex-col w-full mb-12 text-center">
+        <div className="flex flex-col w-full mb-12 text-center">
           <h1 className="text-center font-slim text-brown">Our Blog</h1>
-              <p className="mx-auto text-base leading-relaxed lg:w-2/3">
-                Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-                gentrify.
-              </p>
-            </div>
+          <p className="mx-auto text-base leading-relaxed lg:w-2/3">
+            Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
+            gentrify.
+          </p>
+        </div>
         <div className="flex flex-wrap -m-4">
           <div className="p-4 md:w-1/3">
             <div className="h-full overflow-hidden border-2 border-gray-200 rounded-lg">
@@ -37,7 +37,10 @@ const OurBlogPage = () => (
                   jianbing microdosing tousled waistcoat.
                 </p>
                 <div className="flex flex-wrap items-center ">
-                  <Link className="inline-flex items-center text-primary md:mb-2 lg:mb-0" to="/blog-post">
+                  <Link
+                    className="inline-flex items-center text-primary md:mb-2 lg:mb-0"
+                    to="/blog-post"
+                  >
                     Learn More
                     <svg
                       className="w-4 h-4 ml-2"
@@ -104,7 +107,10 @@ const OurBlogPage = () => (
                   jianbing microdosing tousled waistcoat.
                 </p>
                 <div className="flex flex-wrap items-center">
-                  <Link className="inline-flex items-center text-primary md:mb-2 lg:mb-0" to="/blog-post">
+                  <Link
+                    className="inline-flex items-center text-primary md:mb-2 lg:mb-0"
+                    to="/blog-post"
+                  >
                     Learn More
                     <svg
                       className="w-4 h-4 ml-2"
@@ -171,7 +177,10 @@ const OurBlogPage = () => (
                   jianbing microdosing tousled waistcoat.
                 </p>
                 <div className="flex flex-wrap items-center ">
-                  <Link className="inline-flex items-center text-primary md:mb-2 lg:mb-0" to="/blog-post">
+                  <Link
+                    className="inline-flex items-center text-primary md:mb-2 lg:mb-0"
+                    to="/blog-post"
+                  >
                     Learn More
                     <svg
                       className="w-4 h-4 ml-2"

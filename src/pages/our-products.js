@@ -104,7 +104,10 @@ const IndexPage = () => (
               <div className="flex -mx-4">
                 <div className="px-4 ">
                   <div className="p-4 bg-white rounded-lg shadow">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu odio ut sem nulla pharetra. Rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Arcu odio ut sem nulla pharetra. Rhoncus aenean vel
+                    elit scelerisque mauris pellentesque pulvinar.
                   </div>
                   <div className="ml-4 -mt-1">
                     <svg
@@ -143,7 +146,10 @@ const IndexPage = () => (
               <div className="flex -mx-4">
                 <div className="px-4 ">
                   <div className="p-4 bg-white rounded-lg shadow">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu odio ut sem nulla pharetra. Rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Arcu odio ut sem nulla pharetra. Rhoncus aenean vel
+                    elit scelerisque mauris pellentesque pulvinar.
                   </div>
                   <div className="ml-4 -mt-1">
                     <svg
@@ -183,7 +189,10 @@ const IndexPage = () => (
               <div className="flex -mx-4">
                 <div className="px-4">
                   <div className="p-4 pt-4 bg-white rounded-lg shadow lg:pb-10">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu odio ut sem nulla pharetra. Rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Arcu odio ut sem nulla pharetra. Rhoncus aenean vel
+                    elit scelerisque mauris pellentesque pulvinar.
                   </div>
                   <div className="ml-4 -mt-1">
                     <svg

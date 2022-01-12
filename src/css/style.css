@@ -50,5 +50,5 @@ a:focus {
 }
 
 .head-3 {
- @apply py-4 mb-2 text-xl font-bold;
+  @apply py-4 mb-2 text-xl font-bold;
 }

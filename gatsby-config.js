@@ -1,9 +1,10 @@
 module.exports = {
   siteMetadata: {
     title: 'Simplicity Itself',
-    description: 'A Simple, Free Gatsby/TailwindCSS Starter Theme For Business Websites',
+    description:
+      'A Simple, Free Gatsby/TailwindCSS Starter Theme For Business Websites',
     author: 'https://PlanFlow.dev',
-    company: 'Your Company Name Here',
+    company: 'Lay Farms LLC',
   },
   plugins: [
     'gatsby-plugin-postcss',

@@ -3,29 +3,11 @@ import { Link } from 'gatsby';
 import React from 'react';
 
 const Footer = ({ companyName }) => (
-  <footer className="w-full px-4 py-6 shadow-sm bg-beige">
-    <div className="px-4 pt-3 pb-4 -mx-4 border-b-2 border-gray-400">
-      <div className="flex flex-col justify-center px-4 mx-auto ml-1 sm:justify-start sm:ml-20 sm:px-0">
-        <h2 className="inline-block text-xl font-semibold text-center text-gray-800 sm:text-left">
-          Join Our Facebook Group
-        </h2>
-        <p className="pl-px text-xs text-center text-gray-700 sm:text-left">
-          Latest news, articles and updates delivered directly to you.
-        </p>
-      </div>
-    </div>
-    <div className="flex flex-col items-center justify-between mx-16 my-4 ml-20 sm:flex-row">
+  <footer className="w-full py-1 bg-yellow-200 shadow-sm">
+    <div className="flex flex-col items-center justify-between h-2 mx-16 my-4 ml-20 sm:flex-row">
       <p className="pt-6">
-        <span className="mr-6 text-sm text-center sm:mr-0 sm:text-base">
+        <span className="text-center  sm:mr-0 sm:text-base">
           © {companyName}, {new Date().getFullYear()}.{' '}
-        </span>
-        <span className="flex justify-center mt-4 text-xs italic sm:mt-0 sm:justify-start">
-          Made In A Laptop
-          <img
-            className="w-6 ml-2"
-            alt="A Laptop"
-            src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgZGF0YS1uYW1lPSLQodC70L7QuSAxIiBpZD0i0KHQu9C+0LlfMSIgdmlld0JveD0iMCAwIDEyOCAxMjgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHRpdGxlLz48cGF0aCBkPSJNMTI2LDk0SDExNS42N2E1Ljk0LDUuOTQsMCwwLDAsLjMzLTEuOTRWMjcuOTRBNiw2LDAsMCwwLDExMC4wNiwyMkgxNy45NEE2LDYsMCwwLDAsMTIsMjcuOTRWOTIuMDZBNS45NCw1Ljk0LDAsMCwwLDEyLjMzLDk0SDJhMiwyLDAsMCwwLTIsMnYuNUMwLDEwMSwzLjYzLDEwNiw4LjUsMTA2aDExMWM0Ljg3LDAsOC41LTUsOC41LTkuNVY5NkEyLDIsMCwwLDAsMTI2LDk0Wk0xNiw5Mi4wNlYyNy45NEExLjk0LDEuOTQsMCwwLDEsMTcuOTQsMjZoOTIuMTJBMS45NCwxLjk0LDAsMCwxLDExMiwyNy45NFY5Mi4wNkExLjk0LDEuOTQsMCwwLDEsMTEwLjA2LDk0SDE3Ljk0QTEuOTQsMS45NCwwLDAsMSwxNiw5Mi4wNlpNMTE5LjUsMTAySDguNWMtMS45NSwwLTMuNjctMi00LjI3LTRIMTIzLjc3QzEyMy4xNywxMDAuMDUsMTIxLjQ1LDEwMiwxMTkuNSwxMDJaIi8+PHBhdGggZD0iTTg0LDcwLjE1cy01LjI3LTIuNC01LjI3LTcuNjNhOC4yNCw4LjI0LDAsMCwxLDQtNi44NSwyLDIsMCwwLDAsLjczLTIuODZBMTUuMjIsMTUuMjIsMCwwLDAsODEsNTBjLTIuNC0yLTYuNi0yLjU5LTguNy0yLjU5YTE4LjMyLDE4LjMyLDAsMCwwLTUuODksMS41MywxOC43NSwxOC43NSwwLDAsMS0xLjkzLjY4Yy0uMjktLjA3LS45Mi0uMjktMS40NS0uNDdDNjAuNTMsNDguMjcsNTYuNzYsNDcsNTMuMjUsNDgsNDQuNDMsNTAuNjgsNDMsNTkuMjQsNDIuODMsNjIuOGMtLjMsNS42Myw0LjExLDE0LjkxLDUuNSwxN2wuMjkuNDRjMS41NSwyLjMxLDMuNjYsNS40Niw3LjczLDUuNzhsLjc0LDBBMTMuNDgsMTMuNDgsMCwwLDAsNjIsODQuOTFhOS4xLDkuMSwwLDAsMSwzLS43Niw5LjUxLDkuNTEsMCwwLDEsMy4xOS43N0ExNC4xMywxNC4xMywwLDAsMCw3My4wNyw4NmMzLjM5LDAsNS43Mi0yLjkxLDcuMjYtNC44My4zNC0uNDMuNjYtLjgzLjg3LTEsMS40OS0xLjQ5LDMuMzItNiwzLjg1LTcuNDFBMiwyLDAsMCwwLDg0LDcwLjE1Wm0tNS42MSw3LjEzYTE2LjYzLDE2LjYzLDAsMCwwLTEuMTcsMS4zN0M3Ni4xNSw4MCw3NC41NCw4Miw3My4wNyw4MmExMC4xNCwxMC4xNCwwLDAsMS0zLjU1LS44MywxMywxMywwLDAsMC00LjU0LTEsMTIuNywxMi43LDAsMCwwLTQuNDEsMSw5LDksMCwwLDEtMy45MS44MmMtMi0uMTUtMy4xNi0xLjY5LTQuNzEtNGwtLjMxLS40NmMtMS4zMy0yLTUtMTAuMzQtNC44MS0xNC40OUM0Nyw2MC4zLDQ4LDUzLjc4LDU0LjQxLDUxLjg1YTUuNTEsNS41MSwwLDAsMSwxLjY0LS4yMywxOC4yMiwxOC4yMiwwLDAsMSw1LjY1LDEuMyw5LDksMCwwLDAsMi43Ni43MSwxMC42MSwxMC42MSwwLDAsMCwzLjM3LTEsMTYuMTEsMTYuMTEsMCwwLDEsNC40Ni0xLjI3YzIsMCw0LjkuNjEsNi4xLDEuNjQuMTkuMTYuMzcuMzMuNTQuNWExMS43OSwxMS43OSwwLDAsMC00LjIxLDljMCw1LjUzLDMuNyw4LjgzLDYsMTAuMzJBMjEuNzQsMjEuNzQsMCwwLDEsNzguMzgsNzcuMjhaIi8+PHBhdGggZD0iTTY0LjA5LDQ2LjY1cy4yMywwLC41NCwwYTkuNyw5LjcsMCwwLDAsNy43NC00LjE0LDExLjQ1LDExLjQ1LDAsMCwwLDIuNDktNy43NiwyLDIsMCwwLDAtLjc1LTEuMzRBMiwyLDAsMCwwLDcyLjYzLDMzYTEzLjgyLDEzLjgyLDAsMCwwLTcuMzIsMy41NmMtMy4xMywzLjEzLTMsOC0zLDguMTZBMiwyLDAsMCwwLDY0LjA5LDQ2LjY1Wm00LTcuMjVhOC4wOCw4LjA4LDAsMCwxLDIuMjktMS41Nyw5LjUyLDkuNTIsMCwwLDEtMS4yNiwyLjMsNi41MSw2LjUxLDAsMCwxLTIuNTQsMi4wOUE2LjE5LDYuMTksMCwwLDEsNjguMTQsMzkuNFoiLz48L3N2Zz4="
-          ></img>
         </span>
       </p>
       <div className="flex items-center">
