@@ -5,7 +5,7 @@ import React from 'react';
 //import React, { useState } from "react"
 
 const Footer = ({ companyName }) => (
-  <footer className="w-full shadow-sm bg-beige">
+  <footer className="w-full bg-yellow-200 shadow-sm">
     {/* <div className="px-4 pt-3 pb-4 -mx-4 border-b-2 border-gray-400">
       <div className="flex flex-col justify-center px-4 mx-auto ml-1 sm:justify-start sm:ml-20 sm:px-0">
         <h2 className="inline-block text-xl font-semibold text-center text-gray-800 sm:text-left">
