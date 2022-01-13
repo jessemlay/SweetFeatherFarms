@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Simplicity Itself',
+    title: 'Sweet Feather Farms',
     description:
       'A Simple, Free Gatsby/TailwindCSS Starter Theme For Business Websites',
     author: 'https://PlanFlow.dev',

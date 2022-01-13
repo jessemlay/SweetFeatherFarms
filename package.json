@@ -50,6 +50,7 @@
   ],
   "license": "MIT",
   "scripts": {
+    "lt": "lt --port 8000 --subdomain sweetfeatherfarms",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "lint": "eslint --fix \"**/*.{js,jsx,ts,tsx}\"",
