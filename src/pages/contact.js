@@ -48,11 +48,11 @@ const ContactPage = () => (
                 </div>
                 <div className="w-full p-2 pt-8 mt-8 text-center border-t border-gray-200">
                   <a className="text-secondary">admin@sweetfeatherfarms.com</a>
-                  <p className="my-5 leading-normal">
+                  {/* <p className="my-5 leading-normal">
                     110308 S 4700 Rd
                     <br />
                     Muldrow, OK 74948
-                  </p>
+                  </p> */}
                   <span className="inline-flex">
                     {/* <a className="text-gray-500">
                       <svg

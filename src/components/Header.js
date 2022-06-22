@@ -40,18 +40,18 @@ function Header({ siteTitle }) {
             //   route: `/our-team`,
             //   title: `Our Team`,
             // },
-            {
-              route: `/our-farm`,
-              title: `The Farm`,
-            },
-            {
-              route: `/our-blog`,
-              title: `Blog`,
-            },
-            {
-              route: `/our-products`,
-              title: `Products`,
-            },
+            // {
+            //   route: `/our-farm`,
+            //   title: `The Farm`,
+            // },
+            // {
+            //   route: `/our-blog`,
+            //   title: `Blog`,
+            // },
+            // {
+            //   route: `/our-products`,
+            //   title: `Products`,
+            // },
           ].map((link) => (
             <Link
               className="block mt-4 font-medium hover:text-secondary text-slim text-primary hover:no-underline md:inline-block md:mt-0 md:ml-6"
