@@ -8,7 +8,7 @@ const ContactPage = () => (
   <Layout>
     <SEO title="Contact Us" />
     <div className="py-12">
-      <div className="container py-6">
+      <div className="container py-6 h-screen">
         <section className="text-gray-700 body-font">
           <div className="container px-5 mx-auto">
             <div className="flex flex-col w-full mb-12 text-center">
@@ -18,10 +18,11 @@ const ContactPage = () => (
               <p className="mx-auto text-base leading-relaxed lg:w-2/3">
                 Shoot us a email and well get back to you as soon as possible.
               </p>
+              <a className="text-secondary">admin@sweetfeatherfarms.com</a>
             </div>
             <div className="mx-auto lg:w-1/2 md:w-2/3">
               <div className="flex flex-wrap -m-2">
-                <div className="w-1/2 p-2">
+                {/* <div className="w-1/2 p-2">
                   <input
                     className="w-full px-4 py-2 text-base bg-gray-100 border border-gray-400 rounded focus:outline-none focus:border-secondary"
                     placeholder="Name"
@@ -45,14 +46,13 @@ const ContactPage = () => (
                   <button className="flex px-8 py-2 mx-auto text-lg text-white bg-green-500 border-0 rounded hover:bg-green-600 focus:outline-none">
                     Send
                   </button>
-                </div>
+                </div> */}
                 <div className="w-full p-2 pt-8 mt-8 text-center border-t border-gray-200">
-                  <a className="text-secondary">admin@sweetfeatherfarms.com</a>
-                  <p className="my-5 leading-normal">
+                  {/* <p className="my-5 leading-normal">
                     110308 S 4700 Rd
                     <br />
                     Muldrow, OK 74948
-                  </p>
+                  </p> */}
                   <span className="inline-flex">
                     {/* <a className="text-gray-500">
                       <svg

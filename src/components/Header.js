@@ -33,25 +33,25 @@ function Header({ siteTitle }) {
               title: 'Home',
             },
             // {
-            //   route: `/our-story`,
-            //   title: `Our Story`,
+            //   route: `/contact`,
+            //   title: `Contact Us`,
             // },
             // {
             //   route: `/our-team`,
             //   title: `Our Team`,
             // },
-            {
-              route: `/our-farm`,
-              title: `The Farm`,
-            },
-            {
-              route: `/our-blog`,
-              title: `Blog`,
-            },
-            {
-              route: `/our-products`,
-              title: `Products`,
-            },
+            // {
+            //   route: `/our-farm`,
+            //   title: `The Farm`,
+            // },
+            // {
+            //   route: `/our-blog`,
+            //   title: `Blog`,
+            // },
+            // {
+            //   route: `/our-products`,
+            //   title: `Products`,
+            // },
           ].map((link) => (
             <Link
               className="block mt-4 font-medium hover:text-secondary text-slim text-primary hover:no-underline md:inline-block md:mt-0 md:ml-6"
@@ -61,12 +61,6 @@ function Header({ siteTitle }) {
               {link.title}
             </Link>
           ))}
-          <Link
-            to="/contact"
-            className="px-4 py-2 ml-6 text-white bg-green-500 rounded shadow-sm sm:relative sm:top-4 hover:no-underline hover:bg-green-600"
-          >
-            <span className="">Contact Us</span>
-          </Link>
         </div>
         <div className="block lg:hidden">
           {/* beginning of hamburger */}
