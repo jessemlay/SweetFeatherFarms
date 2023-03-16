@@ -8,6 +8,7 @@ import TestImage3 from 'src/images/test-image-3.jpg';
 import FarmProduct1 from 'src/images/farm-product-1.jpg';
 import FarmProduct2 from 'src/images/farm-product-2.jpg';
 import FarmImage from 'src/images/sff.jpg';
+import ollieChickens from 'src/images/ollie.jpg';
 import StripeImage1 from 'src/images/logo-stripe.png';
 import GastbyIcon from 'src/images/gatsby-icon.png';
 import TailwindIcon from 'src/images/tailwind.png';
@@ -24,8 +25,10 @@ const IndexPage = () => (
             <span className="">Family-owned and operated</span>
           </div>
           <div className="mt-4 text-xl">
-            Founded in 2022, Sweet Feather Farms provides high-quality
-            sustainable honey, goats milk and eggs for the market.
+            {/* Founded in 2022, Sweet Feather Farms provides high-quality
+            sustainable honey, goats milk and eggs for the market. */}
+            Our Farm is currently ramping up for production.{' '}
+            <div className="text-center"> Please check back soon!</div>
           </div>
           <div className="h-16 my-5 mt-10">
             {/* <Link
@@ -40,15 +43,19 @@ const IndexPage = () => (
         <div className="flex w-full -mt-5 md:justify-end md:w-1/2">
           <div className="bg-dots">
             <div className="z-10 max-w-md mt-6 ml-4 rounded-full">
-              <img alt="card img" className="rounded-t" src={FarmImage}></img>
+              <img
+                alt="card img"
+                className="rounded-t"
+                src={ollieChickens}
+              ></img>
               <div className="p-10 text-2xl bg-white">
-                <img
+                {/* <img
                   alt="quote"
                   className="float-left mr-1"
                   src="https://assets-global.website-files.com/5b5a66e9f3166b36708705fa/5cf8fb1f994fb7168d0d66fb_quote-intro.svg"
                 ></img>{' '}
                 From farm to fork, we harvest all our products with love.
-                <p className="mt-4 text-sm">- Jesse Lay, Founder</p>
+                <p className="mt-4 text-sm">- Jesse Lay, Founder</p> */}
               </div>
             </div>
           </div>
@@ -70,7 +77,7 @@ const IndexPage = () => (
               <div className="mb-4 text-center sm:px-8">
                 <h3 className="pt-4 mb-2 text-2xl">Sweet Feather Farms</h3>
                 <p className="mb-4 text-sm text-gray-700">
-                  Provides high quality honey, goats milk and eggs.
+                  {/* Provides high quality honey, goats milk and eggs. */}
                 </p>
               </div>
               <div className="px-8 pt-6 pb-8 mb-4 bg-white rounded">

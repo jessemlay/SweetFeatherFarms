@@ -1,7 +1,7 @@
 import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import React, { useState } from 'react';
-import logo from '../images/logo-invert.png';
+import logo from '../images/logo.png';
 
 function Header({ siteTitle }) {
   const [isExpanded, toggleExpansion] = useState(false);
@@ -10,14 +10,19 @@ function Header({ siteTitle }) {
     <nav className="sticky top-0 w-full mt-0 bg-yellow-200 shadow-2xl">
       <div className="container flex flex-wrap items-center justify-between mx-auto">
         <Link to="/" className="">
-          <div className="no-underline opacity-100 hover:text-white hover:no-underline">
+          <div className="no-underline opacity-100 hover:text-white hover:no-underline bg-yellow-300 flex-1 rounded-t-none rounded-b-sm shadow-md">
             <span className="pl-2 text-2xl italic font-bold text-green-700">
-              {/* <img
+              <img
                 alt="Simplicity Farms"
-                className="inline w-12 h-12"
+                className="inline w-12 h-12 mr-6 ml-6"
                 src={logo}
-              /> */}
-              Sweet Feather Farms
+              />
+              <Link
+                to="/"
+                className="align-middle block mt-4 font-medium hover:text-secondary text-slim text-primary hover:no-underline md:inline-block md:mt-0 md:ml-6 mr-6"
+              >
+                <span className="animate-pulse">Sweet Feather Farms</span>
+              </Link>
               {/* {siteTitle} */}
             </span>
           </div>
@@ -32,10 +37,10 @@ function Header({ siteTitle }) {
               route: '/',
               title: 'Home',
             },
-            // {
-            //   route: `/our-story`,
-            //   title: `Our Story`,
-            // },
+            {
+              route: `/contact`,
+              title: `Contact Us`,
+            },
             // {
             //   route: `/our-team`,
             //   title: `Our Team`,
@@ -61,12 +66,6 @@ function Header({ siteTitle }) {
               {link.title}
             </Link>
           ))}
-          <Link
-            to="/contact"
-            className="px-4 py-2 ml-6 text-white bg-green-500 rounded shadow-sm sm:relative sm:top-4 hover:no-underline hover:bg-green-600"
-          >
-            <span className="">Contact Us</span>
-          </Link>
         </div>
         <div className="block lg:hidden">
           {/* beginning of hamburger */}
