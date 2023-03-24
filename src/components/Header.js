@@ -1,7 +1,7 @@
 import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import React, { useState } from 'react';
-import logo from '../images/logo-invert.png';
+import logo from '../images/logo.png';
 
 function Header({ siteTitle }) {
   const [isExpanded, toggleExpansion] = useState(false);
@@ -12,11 +12,11 @@ function Header({ siteTitle }) {
         <Link to="/" className="">
           <div className="no-underline opacity-100 hover:text-white hover:no-underline">
             <span className="pl-2 text-2xl italic font-bold text-green-700">
-              {/* <img
+              <img
                 alt="Simplicity Farms"
-                className="inline w-12 h-12"
+                className="inline w-12 h-12 mr-4"
                 src={logo}
-              /> */}
+              />
               Sweet Feather Farms
               {/* {siteTitle} */}
             </span>

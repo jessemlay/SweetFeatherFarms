@@ -5,7 +5,7 @@ import React from 'react';
 //import React, { useState } from "react"
 
 const Footer = ({ companyName }) => (
-  <footer className="w-full bg-yellow-200 shadow-lg">
+  <footer className="w-full bg-yellow-200 shadow-lg fixed inset-x-0 bottom-0">
     {/* <div className="px-4 pt-3 pb-4 -mx-4 border-b-2 border-gray-400">
       <div className="flex flex-col justify-center px-4 mx-auto ml-1 sm:justify-start sm:ml-20 sm:px-0">
         <h2 className="inline-block text-xl font-semibold text-center text-gray-800 sm:text-left">
@@ -18,7 +18,7 @@ const Footer = ({ companyName }) => (
     </div> */}
     <div className="flex flex-col items-center justify-between ml-20 sm:flex-row">
       <p className="pt-6">
-        <span className="mr-6 text-sm text-center sm:mr-0 sm:text-base">
+        <span className="text-sm text-center sm:mr-0 sm:text-base">
           © {companyName}, {new Date().getFullYear()}.{' '}
         </span>
       </p>

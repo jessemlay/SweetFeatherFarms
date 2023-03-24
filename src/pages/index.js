@@ -9,6 +9,7 @@ import FarmProduct1 from 'src/images/farm-product-1.jpg';
 import FarmProduct2 from 'src/images/farm-product-2.jpg';
 import FarmImage from 'src/images/sff.jpg';
 import ollieChickens from 'src/images/ollie.jpg';
+import underConstruction from 'src/images/construction.png';
 import StripeImage1 from 'src/images/logo-stripe.png';
 import GastbyIcon from 'src/images/gatsby-icon.png';
 import TailwindIcon from 'src/images/tailwind.png';
@@ -21,17 +22,16 @@ const IndexPage = () => (
     <div className="max-w-6xl p-2 mt-4 sm:m-auto sm:p-12">
       <div className="flex flex-col pb-10 border-b-2 md:flex-row">
         <div className="flex flex-col justify-center max-w-md md:w-1/2">
-          <div className="text-2xl font-black uppercase md:text-5xl text-primary">
-            <span className="">Family-owned and operated</span>
+          <div className="text-2xl font-black uppercase md:text-2xl text-primary text-center">
+            <span className="text-center">Please check back soon</span>
           </div>
           <div className="mt-4 text-xl">
             {/* Founded in 2022, Sweet Feather Farms provides high-quality
             sustainable honey, goats milk and eggs for the market. */}
 
-            <div className="text-center">
+            <div className="text-center text-2xl font-black uppercase md:text-2xl text-primary">
               {' '}
-              Our Farm is currently ramping up for production. Please check back
-              soon!
+              Our Farm is currently ramping up for production.
             </div>
           </div>
           <div className="h-16 my-5 mt-10">
@@ -46,7 +46,7 @@ const IndexPage = () => (
         {/* Hero Section */}
         <div className="flex w-full -mt-5 md:justify-end md:w-1/2">
           <div className="bg-dots">
-            <div className="z-10 max-w-md mt-6 ml-4 rounded-full">
+            <div className="z-10 max-w-md mt-6 ml-4">
               <img
                 alt="card img"
                 className="rounded-t"
@@ -67,34 +67,15 @@ const IndexPage = () => (
       </div>
       {/* Our Farm Section */}
       <div className="container pt-2 pb-6 mx-auto border-b-2">
-        <h1 className="py-4 text-center font-slim text-primary">Our Farm</h1>
+        {/* <h1 className="py-4 text-center font-slim text-primary">Our Farm</h1> */}
         <div className="flex justify-center px-6 my-4">
           <div className="w-60 md:w-full md:flex-row sm:flex-col">
-            <div className="flex w-full p-4 mr-2 bg-white rounded shadow-xl md:h-auto sm:h-40">
+            <div className="flex w-full p-4 mr-2 ">
               <img
-                className="w-full h-auto bg-gray-400 bg-cover rounded"
-                src={FarmImage}
+                className="w-full h-auto"
+                src={underConstruction}
                 alt=""
               ></img>
-            </div>
-            <div className="w-full p-5 bg-white">
-              <div className="mb-4 text-center sm:px-8">
-                <h3 className="pt-4 mb-2 text-2xl">Sweet Feather Farms</h3>
-                <p className="mb-4 text-sm text-gray-700">
-                  {/* Provides high quality honey, goats milk and eggs. */}
-                </p>
-              </div>
-              <div className="px-8 pt-6 pb-8 mb-4 bg-white rounded">
-                {/* <hr className="mb-6 border-t" /> */}
-                {/* <div className="text-center">
-                  <Link
-                    className="inline-block text-sm text-blue-500 align-baseline hover:text-blue-800"
-                    to="./index.html"
-                  >
-                    Find Us On Google Maps!
-                  </Link>
-                </div> */}
-              </div>
             </div>
           </div>
         </div>
