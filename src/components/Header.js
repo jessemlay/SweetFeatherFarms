@@ -93,29 +93,29 @@ function Header({ siteTitle }) {
                 >
                   {[
                     {
-                      route: `/our-story`,
-                      title: `Our Story`,
+                      route: '/',
+                      title: 'Home',
                     },
+                    // {
+                    //   route: `/contact`,
+                    //   title: `Contact Us`,
+                    // },
                     // {
                     //   route: `/our-team`,
                     //   title: `Our Team`,
                     // },
-                    {
-                      route: `/our-farm`,
-                      title: `Our Farm`,
-                    },
-                    {
-                      route: `/our-blog`,
-                      title: `Our Blog`,
-                    },
-                    {
-                      route: `/our-products`,
-                      title: `Our Products`,
-                    },
-                    {
-                      route: `/contact`,
-                      title: `Contact Us`,
-                    },
+                    // {
+                    //   route: `/our-farm`,
+                    //   title: `The Farm`,
+                    // },
+                    // {
+                    //   route: `/our-blog`,
+                    //   title: `Blog`,
+                    // },
+                    // {
+                    //   route: `/our-products`,
+                    //   title: `Products`,
+                    // },
                   ].map((link) => (
                     <Link
                       className="block px-4 py-2 font-light leading-1 hover:text-secondary text-slim text-primary hover:text-black focus:bg-gray-100 focus:text-secondary hover:no-underline"
