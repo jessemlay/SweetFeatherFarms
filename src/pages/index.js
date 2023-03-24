@@ -27,8 +27,12 @@ const IndexPage = () => (
           <div className="mt-4 text-xl">
             {/* Founded in 2022, Sweet Feather Farms provides high-quality
             sustainable honey, goats milk and eggs for the market. */}
-            Our Farm is currently ramping up for production.{' '}
-            <div className="text-center"> Please check back soon!</div>
+
+            <div className="text-center">
+              {' '}
+              Our Farm is currently ramping up for production. Please check back
+              soon!
+            </div>
           </div>
           <div className="h-16 my-5 mt-10">
             {/* <Link
